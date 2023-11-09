@@ -1,0 +1,30 @@
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
+WARNING:polytope.solvers:`polytope` failed to import `cvxopt.glpk`.
+INFO:polytope.solvers:MOSEK solver not found.
+WARNING:polytope.solvers:will use `scipy.optimize.linprog`
