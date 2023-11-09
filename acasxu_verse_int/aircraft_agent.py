@@ -33,6 +33,9 @@ from verse.parser.parser import ControllerIR
 
 import onnxruntime as ort
 from numba import njit
+import numpy as np  
+
+
 
 
 
@@ -50,7 +53,8 @@ class AircraftAgent(BaseAgent):
             id, code, file_name, initial_state=initial_state, initial_mode=initial_mode
         )
         self.velo = velo
-        # self.decision_logic = ControllerIR.empty()
+        
+        self.decision_logic = ControllerIR.empty()
 
 
 
@@ -59,7 +63,6 @@ class AircraftAgent(BaseAgent):
         ego_mode = mode[0]
         a1=0
         # print(ego_mode)
-        # print("kkk")
         if ego_mode == "Coc":
             a1= 0
         elif ego_mode == "Weak_left":
@@ -97,10 +100,16 @@ class AircraftAgent(BaseAgent):
         trace[0, 1:] = init
         vec=init
         dt_acas=1.0
+        if vec[0]==0:
+            decisions = np.load("commands_671.npy")
+            decisions=decisions.tolist()
+        else:
+            decisions =[0]*96
         time_elapse_mats = init_time_elapse_mats(dt_acas)
         for i in range(num_points):
             # print(mode)
-            cmd = self.action_handler(mode, init, lane_map)
+            cmd = decisions[int(vec[3])]
+            print(cmd)
             time_elapse_mat = time_elapse_mats[0][cmd] #get_time_elapse_mat(self.command, State.dt, intruder_cmd)
             vec = step_state(vec, self.velo, time_elapse_mat, dt_acas)
             # print(vec[1])
