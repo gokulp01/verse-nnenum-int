@@ -1,5 +1,5 @@
 # verse-nnenum-int
-# Assured Collision Avoidance for Learned Controllers: A Case Study of ACAS Xu
+# Assured Collision Avoidance for Learned Controllers
 
 This repository is built based on top of Verse's [offical repository]([https://github.com/googleinterns/IBRNet](https://github.com/AutoVerse-ai/Verse-library))
 
