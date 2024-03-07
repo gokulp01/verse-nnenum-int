@@ -55,8 +55,9 @@ cd data/
 git clone https://github.com/stanleybak/nnenum.git
 cp-r nnenum/examples/acasxu .
 ```
+<div align="center">
 <img width="423" alt="image" src="https://github.com/gokulp01/verse-nnenum-int/assets/43350089/53625011-1346-4a6c-8851-efeb541b3e9c">
-
+</div>
 
 
 ## Usage
@@ -65,16 +66,20 @@ Use the nnenum scripts provided within this repository to generate verified traj
 python3 -m nnenum.nnenum examples/acasxu/data/ACASXU_run2a_3_3_batch_2000.onnx examples/acasxu/data/prop_9.vnnlib
 ```
 This should generate two `.npy` files. 
-<img width="382" alt="image" src="https://github.com/gokulp01/verse-nnenum-int/assets/43350089/14d786fb-af33-4b19-853e-04dd454f8297">
 
+<div align="center">
+<img width="382" alt="image" src="https://github.com/gokulp01/verse-nnenum-int/assets/43350089/14d786fb-af33-4b19-853e-04dd454f8297">
+</div>
 
 Now run the integration file: 
 ```bash
 python3 acas_nnenum_integration.py
 ```
 This integrates with Verse and generates the reachtubes. 
-<img width="376" alt="image" src="https://github.com/gokulp01/verse-nnenum-int/assets/43350089/59cd9581-013c-4f50-9996-ba007f71fad8">
 
+<div align="center">
+<img width="376" alt="image" src="https://github.com/gokulp01/verse-nnenum-int/assets/43350089/59cd9581-013c-4f50-9996-ba007f71fad8">
+</div>
 
 ## Cite this work
 
